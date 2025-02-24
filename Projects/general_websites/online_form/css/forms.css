@@ -108,6 +108,10 @@ html {
 	  flex-basis: auto; /* Allow sections to adjust */
 	  margin-right: 0; /* Remove right margin */
 	}
+
+	address {
+		margin-top: 5rem;
+	}
   }
 
 
