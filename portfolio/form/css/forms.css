@@ -22,9 +22,9 @@ html {
 	scroll-behavior: smooth;
 }
 
-html, body {
+/* html, body {
   overflow-x: hidden;
-}
+} */
 
 header {
 	text-align: center;
