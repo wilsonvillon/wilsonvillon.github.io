@@ -21,10 +21,6 @@
 html {
 	scroll-behavior: smooth;
 }
-
-header p {
-	font-size: large;
-}
   
 .wrapper {
 	width: 95%;
