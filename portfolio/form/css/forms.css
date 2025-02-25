@@ -104,7 +104,7 @@ textarea {
 	cursor: pointer;
 	transition: background-color 0.3s ease, transform 0.2s ease;
 	width: 100%;
-	max-width: 100%; /* Prevents overflow */
+	max-width: 90%; /* Prevents overflow */
 	box-sizing: border-box; /* Includes padding in the total width */
   }
   
