@@ -52,6 +52,7 @@ html {
 	margin-bottom: 1.5em;
 	padding: 1.5em;
 	max-width: 90%; /* Added max-width here */
+	box-sizing: border-box; /* Ensure padding/border are included in width */
   }
   
   legend {
@@ -84,6 +85,7 @@ input[type="file"] {
 	margin-bottom: 0.8rem;
 	padding: 0.7rem;
     transition: border-color 0.3s ease;
+	box-sizing: border-box; /* Ensure padding/border are included in width */
 }
   
 textarea {
@@ -124,6 +126,7 @@ iframe {
   @media (min-width: 768px) {
 	.wrapper {
 		max-width: 90%; /* Increase width on large screens */
+		width: auto; /* Allow width to grow */
 		/* flex-direction: column;
 		padding: 1.5em; */
 		section {
