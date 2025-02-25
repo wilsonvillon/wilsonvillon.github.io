@@ -3,16 +3,19 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Application Form</title>
     <link rel="stylesheet" href="./css/forms.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-    <div class="wrapper">
+    <header>
+        <h1>Job Application Form</h1>
+        <p>Fill out the form below to apply for a position with our company.</p>
+    </header>
+
+    <main class="wrapper">
         <section>
-            <h1>Job Application Form</h1>
-            <p>Fill out the form below to apply for a position with our company.</p>
             <form method="POST" action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES">
                 <fieldset>
                     <legend>Your Contact Information</legend>
@@ -68,20 +71,28 @@
 
                 <button type="submit">Submit Application</button>
             </form>
+
         </section>
 
         <aside>
-            <h3>Our Location</h3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2822.3194284637148!2d-93.27339592331681!3d44.97782176575852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b3329a733800b1%3A0x2e151ae0d4a5e091!2s60%20South%206th%20St%20%233625%2C%20Minneapolis%2C%20MN%2055402!5e0!3m2!1sen!2sus!4v1740248870934!5m2!1sen!2sus"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <address>
-                Frontend Masters &middot;
-                60 South 6th Street &middot;
-                Suite 3625 &middot;
-                Minneapolis, MN 55402
-            </address>
+            <section>
+                <h3>Our Location</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2822.3194284637148!2d-93.27339592331681!3d44.97782176575852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b3329a733800b1%3A0x2e151ae0d4a5e091!2s60%20South%206th%20St%20%233625%2C%20Minneapolis%2C%20MN%2055402!5e0!3m2!1sen!2sus!4v1740248870934!5m2!1sen!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <address>
+                    Frontend Masters &middot;
+                    60 South 6th Street &middot;
+                    Suite 3625 &middot;
+                    Minneapolis, MN 55402
+                </address>
+            </section>
         </aside>
-    </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Job Application Form</p>
+    </footer>
+
     <script src="./js/forms.js"></script>
 </body>
 
