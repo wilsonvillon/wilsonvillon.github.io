@@ -144,6 +144,7 @@ iframe {
 			flex-basis: 100%; /* Stack on mobile */
 			flex: 1 1 100%;
 		}
+	}
 
 	@media (min-width: 1024px) {
 		.wrapper {
