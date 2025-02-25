@@ -23,8 +23,8 @@ html {
 }
 
 html, body {
-	overflow-x: hidden;
-  }
+  overflow-x: hidden;
+}
 
 header {
 	text-align: center;
@@ -59,7 +59,10 @@ header {
 	border-radius: 8px;
 	margin-bottom: 1.5em;
 	padding: 1.5em;
-	width: calc(90% - 0.5rem); /* Added max-width here */
+	/* width: calc(90% - 0.5rem); /* Added max-width here */
+	width: 100%; /* Allow it to take full width of its parent */
+  	max-width: 90%; /* But keep it from getting too wide on larger screens */
+
 	box-sizing: border-box; /* Ensure padding/border are included in width */
   }
   
@@ -152,6 +155,9 @@ iframe {
 			flex-basis: 100%; /* Stack on mobile */
 			flex: 1 1 100%;
 		}
+		body {
+			padding: 1rem;
+		  }
 	}
 
 	@media (min-width: 1024px) {
@@ -189,7 +195,7 @@ header h1 {
 		text-align: center;
 		font-size: 0.9rem;
 	}
-  }
+
 
 
 
