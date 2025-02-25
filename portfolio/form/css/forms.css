@@ -110,8 +110,9 @@ iframe {
 }
   
   /* Responsive adjustments */
-  @media (max-width: 768px) {
+  @media (min-width: 1024px) {
 	.wrapper {
+		max-width: 80%; /* Increase width on large screens */
 		flex-direction: column;
 		padding: 1.5em;
 	}
