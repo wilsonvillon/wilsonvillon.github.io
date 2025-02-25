@@ -112,7 +112,7 @@ iframe {
   /* Responsive adjustments */
   @media (max-width: 768px) {
 	.wrapper {
-		max-width: 80%; /* Increase width on large screens */
+		/* max-width: 80%; /* Increase width on large screens */
 		flex-direction: column;
 		padding: 1.5em;
 	}
