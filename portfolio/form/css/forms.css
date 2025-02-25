@@ -92,8 +92,9 @@ textarea {
 	border-radius: 5px;
 	cursor: pointer;
 	transition: background-color 0.3s ease;
-	/* width: 100%; /* Full width */
+	width: 100%; /* Full width */
 	max-width: 100%; /* Prevents overflow */
+	box-sizing: border-box; /* Includes padding in the total width */
   }
   
   button:hover {
