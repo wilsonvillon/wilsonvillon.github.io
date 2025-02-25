@@ -75,7 +75,7 @@ input[type="tel"],
 input[type="url"],
 input[type="file"] {
 	width: 100%; /* Ensures fields take up full width */
-	max-width: 100%; /* Ensures fields don’t exceed container width */
+	max-width: 90%; /* Ensures fields don’t exceed container width */
 	font-family: inherit;
 	font-size: 1rem;
 	border: 1px solid #ccc;
