@@ -7,98 +7,157 @@
 
 /* Base Styling */
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #081f3a; /* Main brand background color */
-    color: #f7feff;           /* Default text color */
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #081f3a; /* Main brand background color */
+  color: #f7feff;           /* Default text color */
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  line-height: 1.6;
 }
 
-/* Container to centralize content */
+/* Container to Centralize Content */
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
-/* Headings & accent color */
+/* Headings & Accent Color */
 h1, h2 {
-    color: #c5c1ab; /* Brand accent for headings */
-    margin-top: 0;
+  color: #c5c1ab; /* Brand accent for headings */
+  margin-top: 0;
 }
 
 /* Header */
 header {
-    text-align: center;
+  text-align: center;
 }
 
 /* Navigation */
 nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 1rem 0 0;
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
 nav a {
-    color: #f7feff;
-    text-decoration: none;
-    font-weight: 600;
-    transition: color 0.3s ease;
+  color: #f7feff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
 }
 
 nav a:hover {
-    color: #c5c1ab;
+  color: #c5c1ab;
 }
+
+/* ==================== */
+/* New Home Page Additions */
+/* ==================== */
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #c5c1ab;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+/* Button Styling */
+.btn {
+  display: inline-block;
+  background-color: #c5c1ab;
+  color: #081f3a;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #a19e8c;
+}
+
+/* About Section */
+.about {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.about h2 {
+  color: #c5c1ab;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* ==================== */
+/* Existing Projects Section */
+/* ==================== */
 
 /* Main Projects Section */
 .projects {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 /* Project Cards */
 .project {
-    margin-bottom: 1.5rem;
-    padding: 1.5rem;
-    background-color: #fff;  /* White card */
-    color: #081f3a;          /* Dark text inside the card */
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  background-color: #fff;  /* White card */
+  color: #081f3a;          /* Dark text inside the card */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .project h2 {
-    color: #081f3a; /* Dark color for better contrast on white */
-    margin-bottom: 0.5rem;
+  color: #081f3a; /* Dark color for better contrast on white */
+  margin-bottom: 0.5rem;
 }
   
 .project p {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 /* 'View Project' Link as a Button */
 .project a {
-    display: inline-block;
-    background-color: #c5c1ab; /* Button color */
-    color: #081f3a;           /* Text color on button */
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: background-color 0.3s ease;
+  display: inline-block;
+  background-color: #c5c1ab; /* Button color */
+  color: #081f3a;           /* Text color on button */
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
 }
   
-  .project a:hover {
-    background-color: #a19e8c; /* Slightly darker on hover */
+.project a:hover {
+  background-color: #a19e8c; /* Slightly darker on hover */
 }
-  
-  /* Footer */
-  footer {
-    text-align: center;
-    border-top: 1px solid #f7feff;
-    margin-top: 2rem;
-    padding-top: 1rem;
+
+/* ==================== */
+/* Footer */
+/* ==================== */
+footer {
+  text-align: center;
+  border-top: 1px solid #f7feff;
+  margin-top: 2rem;
+  padding-top: 1rem;
 }
