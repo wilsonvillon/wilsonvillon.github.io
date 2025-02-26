@@ -28,6 +28,11 @@ h1, h2 {
     margin-top: 0;
 }
 
+.project h2 {
+    color: #081f3a; /* Dark color for better contrast on white */
+    margin-bottom: 0.5rem;
+}
+
 /* Header */
 header {
     text-align: center;
