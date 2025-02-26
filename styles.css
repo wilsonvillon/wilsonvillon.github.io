@@ -28,11 +28,6 @@ h1, h2 {
     margin-top: 0;
 }
 
-.project h2 {
-    color: #081f3a; /* Dark color for better contrast on white */
-    margin-bottom: 0.5rem;
-}
-
 /* Header */
 header {
     text-align: center;
@@ -51,7 +46,7 @@ nav ul {
 nav a {
     color: #f7feff;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
     transition: color 0.3s ease;
 }
 
@@ -59,12 +54,12 @@ nav a:hover {
     color: #c5c1ab;
 }
 
-/* Projects Section */
+/* Main Projects Section */
 .projects {
     margin-top: 2rem;
 }
 
-/* Individual Project Cards */
+/* Project Cards */
 .project {
     margin-bottom: 1.5rem;
     padding: 1.5rem;
@@ -73,9 +68,14 @@ nav a:hover {
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+}
+
+.project h2 {
+    color: #081f3a; /* Dark color for better contrast on white */
+    margin-bottom: 0.5rem;
+}
   
-  .project p {
+.project p {
     margin-bottom: 1rem;
 }
 
@@ -87,7 +87,7 @@ nav a:hover {
     padding: 0.5rem 1rem;
     border-radius: 4px;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
     transition: background-color 0.3s ease;
 }
   
