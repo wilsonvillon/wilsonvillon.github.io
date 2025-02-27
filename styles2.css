@@ -197,7 +197,7 @@ nav a:hover {
 .about p {
   max-width: 600px;
   margin: 0 auto;
-  color: var(--tertiary-color);
+  color: var(--quaternary-color);
 }
 
 /* Contact Section */
