@@ -91,7 +91,7 @@ nav a:hover {
 .btn {
   display: inline-block;
   background-color: #aeb3cd;
-  color: #ffffff;
+  color: #faffff;
   padding: 0.75rem 1.5rem;
   border-radius: 4px;
   text-decoration: none;
@@ -106,13 +106,13 @@ nav a:hover {
 /* Services Section */
 .services {
   padding: 4rem 2rem;
-  background-color: --light-color; /* Light background to contrast hero */
+  background-color: #aeb3cd;
   text-align: center;
 }
 
 .services h2 {
   font-size: 2rem;
-  color: --primary-color;
+  color: #193175;
   margin-bottom: 2rem;
 }
 
@@ -127,8 +127,8 @@ nav a:hover {
   flex: 1 1 250px;
   min-width: 250px;
   max-width: 300px;
-  background-color: #fff;
-  color: #333;
+  background-color: #faffff;
+  color: #aeb3cd;
   padding: 2rem 1rem;
   border-radius: 5px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
