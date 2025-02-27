@@ -1,3 +1,9 @@
+:root {
+    --primary-color: #081f3a; /* Dark blue */
+    --accent-color: #f6edbd;  /* Light beige */
+    --light-color: #f7feff;    /* Light blue */
+}
+
 /* Global Reset */
 *,
 *::before,
@@ -36,7 +42,7 @@ header {
 /* Logo Area */
 .logo h1 {
   font-size: 1.5rem;
-  color: #081f3a; /* Sample brand color */
+  color: --primary-color; /* Sample brand color */
   margin: 0;
 }
 
@@ -49,7 +55,7 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: #081f3a;
+  color: --primary-color;
   font-weight: 500;
   transition: color 0.3s ease;
 }
@@ -66,14 +72,14 @@ nav a:hover {
   justify-content: center;
   text-align: center;
   padding: 2rem;
-  background: #081f3a; /* Dark background */
-  color: #f7feff;      /* Light text */
+  background: --primary-color; /* Dark background */
+  color: --light-color;      /* Light text */
 }
 
 .hero-content h2 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: #f7feff;
+  color: --light-color;
 }
 
 .hero-content p {
@@ -85,7 +91,7 @@ nav a:hover {
 .btn {
   display: inline-block;
   background-color: #c5c1ab;
-  color: #081f3a;
+  color: --primary-color;
   padding: 0.75rem 1.5rem;
   border-radius: 4px;
   text-decoration: none;
@@ -100,13 +106,13 @@ nav a:hover {
 /* Services Section */
 .services {
   padding: 4rem 2rem;
-  background-color: #f7feff; /* Light background to contrast hero */
+  background-color: --light-color; /* Light background to contrast hero */
   text-align: center;
 }
 
 .services h2 {
   font-size: 2rem;
-  color: #081f3a;
+  color: --primary-color;
   margin-bottom: 2rem;
 }
 
@@ -130,7 +136,7 @@ nav a:hover {
 
 .service-item h3 {
   margin-bottom: 1rem;
-  color: #081f3a;
+  color: --primary-color;
 }
 
 /* Portfolio Section */
@@ -142,7 +148,7 @@ nav a:hover {
 
 .portfolio h2 {
   font-size: 2rem;
-  color: #081f3a;
+  color: --primary-color;
   margin-bottom: 2rem;
 }
 
@@ -159,7 +165,7 @@ nav a:hover {
   max-width: 300px;
   border-radius: 5px;
   overflow: hidden; 
-  background-color: #f7feff;
+  background-color: --light-color;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   text-align: center;
   padding: 1rem;
@@ -174,13 +180,13 @@ nav a:hover {
 /* About Section */
 .about {
   padding: 4rem 2rem;
-  background-color: #f7feff;
+  background-color: --light-color;
   text-align: center;
 }
 
 .about h2 {
   font-size: 2rem;
-  color: #081f3a;
+  color: --primary-color;
   margin-bottom: 2rem;
 }
 
@@ -198,7 +204,7 @@ nav a:hover {
 
 .testimonials h2 {
   font-size: 2rem;
-  color: #081f3a;
+  color: --primary-color;
   margin-bottom: 2rem;
 }
 
@@ -212,7 +218,7 @@ nav a:hover {
 .testimonial-item {
   flex: 1 1 300px;
   max-width: 400px;
-  background-color: #f7feff;
+  background-color: --light-color;
   padding: 2rem;
   border-radius: 5px;
   text-align: center;
@@ -228,13 +234,13 @@ nav a:hover {
 /* Contact Section */
 .contact {
   padding: 4rem 2rem;
-  background-color: #f7feff;
+  background-color: --light-color;
   text-align: center;
 }
 
 .contact h2 {
   font-size: 2rem;
-  color: #081f3a;
+  color: --primary-color;
   margin-bottom: 2rem;
 }
 
@@ -252,7 +258,7 @@ nav a:hover {
 .contact label {
   display: block;
   margin-bottom: 0.5rem;
-  color: #081f3a;
+  color: --primary-color;
 }
 
 .contact input[type="text"],
@@ -267,8 +273,8 @@ nav a:hover {
 
 /* Footer */
 footer {
-  background-color: #081f3a; 
-  color: #f7feff;
+  background-color: --primary-color; 
+  color: --light-color;
   text-align: center;
   padding: 2rem;
 }
