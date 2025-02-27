@@ -149,7 +149,7 @@ nav a:hover {
 
 .portfolio h2 {
   font-size: 2rem;
-  color: var(--primary-color);
+  color: var(--secondary-color);
   margin-bottom: 2rem;
 }
 
@@ -161,7 +161,7 @@ nav a:hover {
 }
 
 .portfolio-item h3 {
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 .portfolio-item {
   flex: 1 1 250px;
@@ -184,13 +184,13 @@ nav a:hover {
 /* About Section */
 .about {
   padding: 4rem 2rem;
-  background-color: var(--secondary-color);
+  background-color: var(--tertiary-color);
   text-align: center;
 }
 
 .about h2 {
   font-size: 2rem;
-  color: --primary-color;
+  color: var(--secondary-color);
   margin-bottom: 2rem;
 }
 
