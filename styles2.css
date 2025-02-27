@@ -31,7 +31,7 @@ header {
   top: 0;
   width: 100%;
   z-index: 999; /* Ensures header stays above other elements */
-  background-color: #fff; 
+  background-color: #193175; 
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -42,7 +42,7 @@ header {
 /* Logo Area */
 .logo h1 {
   font-size: 1.5rem;
-  color: --primary-color; /* Sample brand color */
+  color: #faffff; /* Sample brand color */
   margin: 0;
 }
 
@@ -55,13 +55,13 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: --primary-color;
+  color: #faffff;
   font-weight: 500;
   transition: color 0.3s ease;
 }
 
 nav a:hover {
-  color: #c5c1ab; /* Accent on hover */
+  color: #aeb3cd; /* Accent on hover */
 }
 
 /* Hero Section */
@@ -72,14 +72,14 @@ nav a:hover {
   justify-content: center;
   text-align: center;
   padding: 2rem;
-  background: #193175; /* Dark background */
-  color: #faffff;      /* Light text */
+  background: #faffff; /* Dark background */
+  color: #193175;      /* Light text */
 }
 
 .hero-content h2 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: --light-color;
+  color: #193175;
 }
 
 .hero-content p {
