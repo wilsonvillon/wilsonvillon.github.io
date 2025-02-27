@@ -160,13 +160,16 @@ nav a:hover {
   justify-content: center;
 }
 
+.portfolio-item h3 {
+    color: var(--secondary-color);
+}
 .portfolio-item {
   flex: 1 1 250px;
   min-width: 250px;
   max-width: 300px;
   border-radius: 5px;
   overflow: hidden; 
-  background-color: blue;
+  background-color: var(--quaternary-color);
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   text-align: center;
   padding: 1rem;
