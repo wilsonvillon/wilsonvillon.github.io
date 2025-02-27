@@ -200,42 +200,6 @@ nav a:hover {
   color: var(--tertiary-color);
 }
 
-/* Testimonials Section (Optional) */
-.testimonials {
-  padding: 4rem 2rem;
-  background-color: var(--quaternary-color);
-  text-align: center;
-}
-
-.testimonials h2 {
-  font-size: 2rem;
-  color: --primary-color;
-  margin-bottom: 2rem;
-}
-
-.testimonial-items {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
-}
-
-.testimonial-item {
-  flex: 1 1 300px;
-  max-width: 400px;
-  background-color: --light-color;
-  padding: 2rem;
-  border-radius: 5px;
-  text-align: center;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-.testimonial-item blockquote {
-  font-style: italic;
-  margin-bottom: 1rem;
-  color: #333;
-}
-
 /* Contact Section */
 .contact {
   padding: 4rem 2rem;
