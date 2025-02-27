@@ -72,8 +72,8 @@ nav a:hover {
   justify-content: center;
   text-align: center;
   padding: 2rem;
-  background: --primary-color; /* Dark background */
-  color: --light-color;      /* Light text */
+  background: #193175; /* Dark background */
+  color: #faffff;      /* Light text */
 }
 
 .hero-content h2 {
