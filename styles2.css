@@ -113,7 +113,7 @@ nav a:hover {
 
 .services h2 {
   font-size: 2rem;
-  color: var(--tertiary-color);
+  color: var(--quaternary-color);
   margin-bottom: 2rem;
 }
 
@@ -190,7 +190,7 @@ nav a:hover {
 
 .about h2 {
   font-size: 2rem;
-  color: var(--tertiary-color);
+  color: var(--quaternary-color);
   margin-bottom: 2rem;
 }
 
