@@ -149,7 +149,7 @@ nav a:hover {
 
 .portfolio h2 {
   font-size: 2rem;
-  color: var(--primary-color);
+  color: red;
   margin-bottom: 2rem;
 }
 
