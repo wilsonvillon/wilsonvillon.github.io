@@ -149,7 +149,7 @@ nav a:hover {
 
 .portfolio h2 {
   font-size: 2rem;
-  color: red;
+  color: var(--primary-color);
   margin-bottom: 2rem;
 }
 
@@ -166,7 +166,7 @@ nav a:hover {
   max-width: 300px;
   border-radius: 5px;
   overflow: hidden; 
-  background-color: var(--quaternary-color);
+  background-color: blue;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   text-align: center;
   padding: 1rem;
