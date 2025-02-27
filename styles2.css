@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #081f3a; /* Dark blue */
-    --accent-color: #f6edbd;  /* Light beige */
-    --light-color: #f7feff;    /* Light blue */
+    --primary-color: #faffff; /* Dark blue */
+    --accent-color: #aeb3cd;  /* Light beige */
+    --light-color: #193175;    /* Light blue */
 }
 
 /* Global Reset */
