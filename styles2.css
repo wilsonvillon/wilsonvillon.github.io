@@ -243,7 +243,7 @@ nav a:hover {
 /* Footer */
 footer {
   background-color: var(--primary-color); 
-  color: var(--quaternary-color);
+  color: var(--tertiary-color);
   text-align: center;
   padding: 2rem;
 }
