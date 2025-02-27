@@ -203,13 +203,13 @@ nav a:hover {
 /* Contact Section */
 .contact {
   padding: 4rem 2rem;
-  background-color: --light-color;
+  background-color: var(--tertiary-color);
   text-align: center;
 }
 
 .contact h2 {
   font-size: 2rem;
-  color: --primary-color;
+  color: var(--secondary-color);
   margin-bottom: 2rem;
 }
 
@@ -237,13 +237,13 @@ nav a:hover {
   padding: 0.75rem;
   margin-bottom: 1rem;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 5px;
 }
 
 /* Footer */
 footer {
-  background-color: --primary-color; 
-  color: --light-color;
+  background-color: var(--primary-color); 
+  color: var(--quaternary-color);
   text-align: center;
   padding: 2rem;
 }
