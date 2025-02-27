@@ -184,7 +184,7 @@ nav a:hover {
 /* About Section */
 .about {
   padding: 4rem 2rem;
-  background-color: --light-color;
+  background-color: var(--secondary-color);
   text-align: center;
 }
 
@@ -197,12 +197,13 @@ nav a:hover {
 .about p {
   max-width: 600px;
   margin: 0 auto;
+  color: var(--primary-color);
 }
 
 /* Testimonials Section (Optional) */
 .testimonials {
   padding: 4rem 2rem;
-  background-color: #fff;
+  background-color: var(--quaternary-color);
   text-align: center;
 }
 
