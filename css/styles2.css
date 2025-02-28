@@ -105,7 +105,6 @@ nav a:hover {
 .btn:hover {
   background-color: var(--white); /* Accent on hover */
   color: var(--twilight-lavender); /* Accent on hover */
-  border: red;
 }
 
 /* Services Section */
@@ -117,7 +116,7 @@ nav a:hover {
 
 .services h2 {
   font-size: 2rem;
-  color: var(--white);
+  color: var(--midnight-blue);
   margin-bottom: 2rem;
 }
 
@@ -153,7 +152,7 @@ nav a:hover {
 
 .portfolio h2 {
   font-size: 2rem;
-  color: var(--twilight-lavender);
+  color: var(--midnight-blue);
   margin-bottom: 2rem;
 }
 
@@ -194,14 +193,14 @@ nav a:hover {
 
 .about h2 {
   font-size: 2rem;
-  color: var(--white);
+  color: var(--midnight-blue);
   margin-bottom: 2rem;
 }
 
 .about p {
   max-width: 600px;
   margin: 0 auto;
-  color: var(--white);
+  color: var(--midnight-blue);
 }
 
 /* Contact Section */
@@ -213,7 +212,7 @@ nav a:hover {
 
 .contact h2 {
   font-size: 2rem;
-  color: var(--twilight-lavender);
+  color: var(--midnight-blue);
   margin-bottom: 2rem;
 }
 
