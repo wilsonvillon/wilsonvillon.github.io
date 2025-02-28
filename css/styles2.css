@@ -243,6 +243,25 @@ nav a:hover {
   border-radius: 5px;
 }
 
+@media (max-width: 768px) {
+  /* 1) Reduce header padding so the nav + logo don't force extra width */
+  header {
+    padding: 1rem; /* Was 1rem 2rem; now uniform 1rem all around */
+  }
+
+  /* 2) Allow nav items to wrap onto a new line if needed */
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* 3) (Optional) Reduce gap if needed for really narrow screens
+     nav ul {
+       gap: 1rem;
+     }
+  */
+}
+
 /* Footer */
 footer {
   background-color: var(--midnight-blue); 
