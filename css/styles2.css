@@ -244,22 +244,23 @@ nav a:hover {
 }
 
 @media (max-width: 768px) {
-  /* 1) Reduce header padding so the nav + logo don't force extra width */
+  /* Fix the right gap by adjusting header/nav */
   header {
     padding: 1rem; /* Was 1rem 2rem; now uniform 1rem all around */
   }
 
-  /* 2) Allow nav items to wrap onto a new line if needed */
   nav ul {
     flex-wrap: wrap;
     justify-content: center;
+    gap: 1rem;
   }
-  
-  /* 3) (Optional) Reduce gap if needed for really narrow screens
-     nav ul {
-       gap: 1rem;
-     }
-  */
+
+  /* Adjust the hero on smaller screens so background scales better */
+  .hero {
+    min-height: auto;   /* Let the hero shrink naturally */
+    padding: 4rem 2rem; /* Give text room to breathe */
+    background-size: cover;
+  }
 }
 
 /* Footer */
