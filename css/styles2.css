@@ -105,6 +105,7 @@ nav a:hover {
 .btn:hover {
   background-color: var(--white); /* Accent on hover */
   color: var(--twilight-lavender); /* Accent on hover */
+  border: red;
 }
 
 /* Services Section */
