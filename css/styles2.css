@@ -34,7 +34,7 @@ header {
   top: 0;
   width: 100%;
   z-index: 999; /* Ensures header stays above other elements */
-  background-color: var(--midnight-blue); 
+  background-color: var(--white); 
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -45,7 +45,7 @@ header {
 /* Logo Area */
 .logo h1 {
   font-size: 1.5rem;
-  color: var(--white);
+  color: var(--midnight-blue);
 }
 
 /* Navigation */
@@ -57,7 +57,7 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: var(--white);
+  color: var(--midnight-blue);
   font-weight: 500;
   transition: color 0.3s ease;
 }
