@@ -71,12 +71,7 @@ nav a:hover {
   justify-content: center;
   text-align: center;
   padding: 2rem;
-  background:
-    /* linear-gradient(
-      rgba(0, 0, 0, 0.4),  /* Color overlay (black @ 40% opacity)
-      rgba(0, 0, 0, 0.4)
-    ), */
-    url("hero_img1.jpg") center center / cover no-repeat;
+  background: url("hero_img1.jpg");
   color: var(--tertiary-color);
 }
 
