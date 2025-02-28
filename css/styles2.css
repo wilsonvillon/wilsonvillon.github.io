@@ -71,8 +71,13 @@ nav a:hover {
   justify-content: center;
   text-align: center;
   padding: 2rem;
-  background: var(--tertiary-color);
-  color: var(--primary-color);
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),  /* Color overlay (black @ 40% opacity) */
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("img/blueprint-8781343_1920.jpg") center center / cover no-repeat;
+  color: var(--tertiary-color);
 }
 
 .hero-content h2 {
