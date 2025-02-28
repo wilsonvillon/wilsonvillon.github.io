@@ -1,7 +1,10 @@
 :root {
-    --primary-color: #193175 ; /* Dark blue */
-    --secondary-color: #aeb3cd;  /* Light violet */
-    --tertiary-color: #ffffff;    /* White */
+    /* Colors */
+    --midnight-blue: #193175; /* Midnight Blue */
+    --lavender-gray: #aeb3cd; /* Lavender gray */
+    --twilight-lavender: #969bb3; /* Darker shade of lavender gray*/
+    --cloudy-lavender: #d4d6ed; /* Lighter shade of lavender gray*/
+    --white: #ffffff;    /* White */
 }
 
 /* Global Reset */
@@ -20,8 +23,8 @@ html {
 
 body {
   font-family: 'Poppins', Arial, sans-serif;
-  color: var(--primary-color);
-  background-color: var(--tertiary-color);
+  color: var(--midnight-blue);
+  background-color: var(--white);
   line-height: 1.6;
 }
 
@@ -31,7 +34,7 @@ header {
   top: 0;
   width: 100%;
   z-index: 999; /* Ensures header stays above other elements */
-  background-color: var(--primary-color); 
+  background-color: var(--midnight-blue); 
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -42,7 +45,7 @@ header {
 /* Logo Area */
 .logo h1 {
   font-size: 1.5rem;
-  color: var(--tertiary-color);
+  color: var(--white);
 }
 
 /* Navigation */
@@ -54,13 +57,13 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: var(--tertiary-color);
+  color: var(--white);
   font-weight: 500;
   transition: color 0.3s ease;
 }
 
 nav a:hover {
-  color: var(--secondary-color); /* Accent on hover */
+  color: var(--lavender-gray); /* Accent on hover */
 }
 
 /* Hero Section */
@@ -72,13 +75,13 @@ nav a:hover {
   text-align: center;
   padding: 2rem;
   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/hero_img7.jpg") center/cover no-repeat;
-  color: var(--tertiary-color);
+  color: var(--white);
 }
 
 .hero-content h2 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: var(--tertiary-color);
+  color: var(--white);
 }
 
 .hero-content p {
@@ -89,8 +92,8 @@ nav a:hover {
 
 .btn {
   display: inline-block;
-  background-color: var(--secondary-color);
-  color: var(--tertiary-color);
+  background-color: var(--lavender-gray);
+  color: var(--white);
   padding: 0.75rem 1.5rem;
   border-radius: 5px;
   text-decoration: none;
@@ -100,19 +103,20 @@ nav a:hover {
 }
 
 .btn:hover {
-  background-color: var(--primary-color);
+  background-color: var(--white); /* Accent on hover */
+  color: var(--twilight-lavender); /* Accent on hover */
 }
 
 /* Services Section */
 .services {
   padding: 4rem 2rem;
-  background-color: #d4d6ed;
+  background-color: var(--cloudy-lavender);
   text-align: center;
 }
 
 .services h2 {
   font-size: 2rem;
-  color: var(--tertiary-color);
+  color: var(--white);
   margin-bottom: 2rem;
 }
 
@@ -127,8 +131,8 @@ nav a:hover {
   flex: 1 1 250px;
   min-width: 250px;
   max-width: 300px;
-  background-color: var(--tertiary-color);
-  color: var(--primary-color);
+  background-color: var(--white);
+  color: var(--midnight-blue);
   padding: 2rem 1rem;
   border-radius: 5px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
@@ -136,19 +140,19 @@ nav a:hover {
 
 .service-item h3 {
   margin-bottom: 1rem;
-  color: var(--primary-color);
+  color: var(--midnight-blue);
 }
 
 /* Portfolio Section */
 .portfolio {
   padding: 4rem 2rem;
-  background-color: var(--tertiary-color);
+  background-color: var(--white);
   text-align: center;
 }
 
 .portfolio h2 {
   font-size: 2rem;
-  color: #969BB3;
+  color: var(--twilight-lavender);
   margin-bottom: 2rem;
 }
 
@@ -160,7 +164,7 @@ nav a:hover {
 }
 
 .portfolio-item h3 {
-    color: var(--primary-color);
+    color: var(--midnight-blue);
 }
 .portfolio-item {
   flex: 1 1 250px;
@@ -168,7 +172,7 @@ nav a:hover {
   max-width: 300px;
   border-radius: 5px;
   overflow: hidden; 
-  background-color: var(--tertiary-color);
+  background-color: var(--white);
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   text-align: center;
   padding: 1rem;
@@ -183,32 +187,32 @@ nav a:hover {
 /* About Section */
 .about {
   padding: 4rem 2rem;
-  background-color: var(--secondary-color);
+  background-color: var(--cloudy-lavender);
   text-align: center;
 }
 
 .about h2 {
   font-size: 2rem;
-  color: var(--tertiary-color);
+  color: var(--white);
   margin-bottom: 2rem;
 }
 
 .about p {
   max-width: 600px;
   margin: 0 auto;
-  color: var(--tertiary-color);
+  color: var(--white);
 }
 
 /* Contact Section */
 .contact {
   padding: 4rem 2rem;
-  background-color: var(--tertiary-color);
+  background-color: var(--white);
   text-align: center;
 }
 
 .contact h2 {
   font-size: 2rem;
-  color: var(--secondary-color);
+  color: var(--twilight-lavender);
   margin-bottom: 2rem;
 }
 
@@ -226,7 +230,7 @@ nav a:hover {
 .contact label {
   display: block;
   margin-bottom: 0.5rem;
-  color: var(--primary-color);
+  color: var(--midnight-blue);
 }
 
 .contact input[type="text"],
@@ -241,8 +245,8 @@ nav a:hover {
 
 /* Footer */
 footer {
-  background-color: var(--primary-color); 
-  color: var(--tertiary-color);
+  background-color: var(--midnight-blue); 
+  color: var(--white);
   text-align: center;
   padding: 2rem;
 }
