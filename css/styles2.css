@@ -72,10 +72,10 @@ nav a:hover {
   text-align: center;
   padding: 2rem;
   background:
-    linear-gradient(
-      rgba(0, 0, 0, 0.4),  /* Color overlay (black @ 40% opacity) */
+    /* linear-gradient(
+      rgba(0, 0, 0, 0.4),  /* Color overlay (black @ 40% opacity)
       rgba(0, 0, 0, 0.4)
-    ),
+    ), */
     url("img/blueprint-8781343_1920.jpg") center center / cover no-repeat;
   color: var(--tertiary-color);
 }
