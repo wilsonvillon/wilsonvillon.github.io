@@ -76,7 +76,7 @@ nav a:hover {
       rgba(0, 0, 0, 0.4),  /* Color overlay (black @ 40% opacity)
       rgba(0, 0, 0, 0.4)
     ), */
-    url("blueprint-8781343_1920.jpg") center center / cover no-repeat;
+    url("hero_img1.jpg") center center / cover no-repeat;
   color: var(--tertiary-color);
 }
 
