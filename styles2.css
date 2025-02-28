@@ -1,8 +1,7 @@
 :root {
     --primary-color: #193175 ; /* Dark blue */
     --secondary-color: #aeb3cd;  /* Light violet */
-    --tertiary-color: #faffff;    /* Blue-white */
-    --quaternary-color: #ffffff;   /* White */
+    --tertiary-color: #ffffff;    /* White */
 }
 
 /* Global Reset */
@@ -55,7 +54,7 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: var(--quaternary-color);
+  color: var(--tertiary-color);
   font-weight: 500;
   transition: color 0.3s ease;
 }
@@ -90,8 +89,8 @@ nav a:hover {
 
 .btn {
   display: inline-block;
-  background-color: #aeb3cd;
-  color: var(--quaternary-color);
+  background-color: var(--secondary-color);
+  color: var(--tertiary-color);
   padding: 0.75rem 1.5rem;
   border-radius: 5px;
   text-decoration: none;
@@ -113,7 +112,7 @@ nav a:hover {
 
 .services h2 {
   font-size: 2rem;
-  color: var(--quaternary-color);
+  color: var(--tertiary-color);
   margin-bottom: 2rem;
 }
 
@@ -128,7 +127,7 @@ nav a:hover {
   flex: 1 1 250px;
   min-width: 250px;
   max-width: 300px;
-  background-color: var(--quaternary-color);
+  background-color: var(--tertiary-color);
   color: var(--primary-color);
   padding: 2rem 1rem;
   border-radius: 5px;
@@ -169,7 +168,7 @@ nav a:hover {
   max-width: 300px;
   border-radius: 5px;
   overflow: hidden; 
-  background-color: var(--quaternary-color);
+  background-color: var(--tertiary-color);
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   text-align: center;
   padding: 1rem;
@@ -190,14 +189,14 @@ nav a:hover {
 
 .about h2 {
   font-size: 2rem;
-  color: var(--quaternary-color);
+  color: var(--tertiary-color);
   margin-bottom: 2rem;
 }
 
 .about p {
   max-width: 600px;
   margin: 0 auto;
-  color: var(--quaternary-color);
+  color: var(--tertiary-color);
 }
 
 /* Contact Section */
@@ -227,7 +226,7 @@ nav a:hover {
 .contact label {
   display: block;
   margin-bottom: 0.5rem;
-  color: --primary-color;
+  color: var(--primary-color);
 }
 
 .contact input[type="text"],
