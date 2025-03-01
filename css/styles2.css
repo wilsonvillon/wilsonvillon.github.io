@@ -245,6 +245,36 @@ nav a:hover {
   border-radius: 5px;
 }
 
+/* ============================= */
+/*  HAMBURGER MENU BASE STYLES  */
+/* ============================= */
+
+/* Hide the checkbox visually */
+#menu-toggle {
+  display: none;
+}
+
+/* Hamburger icon container */
+.hamburger {
+  display: none; /* Hidden by default for large screens */
+  width: 2rem;
+  height: 2rem;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Each "line" of the hamburger */
+.hamburger span {
+  display: block;
+  width: 100%;
+  height: 0.2rem; 
+  background-color: var(--midnight-blue); /* Use your brand color or var(--lavender-gray) */
+  border-radius: 2px;
+  transition: background-color 0.3s ease;
+}
+
 @media (max-width: 768px) {
   /* Fix the right gap by adjusting header/nav */
   header {
@@ -263,6 +293,40 @@ nav a:hover {
     padding: 4rem 2rem; /* Give text room to breathe */
     background-size: cover; /* Cover the hero area */
   }
+
+  /* =============================== */
+  /*   HAMBURGER MENU MOBILE RULES   */
+  /* =============================== */
+
+/* Show hamburger on small screens */
+.hamburger {
+  display: flex;  /* Now visible under 768px */
+}
+
+/* Initially hide your nav on mobile */
+nav ul {
+  display: none;    /* Overwrites the earlier display: flex; */
+  position: absolute; 
+  top: 4rem;        /* Positions the menu below the header */
+  right: 1rem;      /* Align it to the right side */
+  background-color: var(--white);
+  border: 1px solid rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  padding: 1rem;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Reveal the nav when checkbox is checked */
+#menu-toggle:checked ~ nav ul {
+  display: flex;
+}
+
+/* Optionally change hamburger line color on toggle */
+#menu-toggle:checked ~ .hamburger span {
+  background-color: var(--lavender-gray);
+}
 }
 
 /* Footer */
