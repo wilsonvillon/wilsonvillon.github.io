@@ -259,7 +259,7 @@ nav a:hover {
   .hero {
     min-height: auto;   /* Let the hero shrink naturally */
     padding: 4rem 2rem; /* Give text room to breathe */
-    background-size: 100% 100%;
+    background-size: cover; /* Cover the hero area */
   }
 }
 
