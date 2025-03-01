@@ -306,7 +306,7 @@ nav a:hover {
 /* Initially hide your nav on mobile */
 nav ul {
   display: none;    /* Overwrites the earlier display: flex; */
-  position: absolute; 
+  position: right; 
   top: 4rem;        /* Positions the menu below the header */
   right: 1rem;      /* Align it to the right side */
   background-color: var(--white);
