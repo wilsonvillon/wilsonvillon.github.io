@@ -78,14 +78,14 @@ nav a:hover {
   color: var(--white);
 }
 
-.hero-content h2 {
-  font-size: 2.5rem;
+.hero-content h1 {
+  font-size: 3rem;
   margin-bottom: 1rem;
   color: var(--white);
 }
 
 .hero-content p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   max-width: 600px;
   margin: 0 auto 2rem auto;
 }
