@@ -79,13 +79,13 @@ nav a:hover {
 }
 
 .hero-content h1 {
-  font-size: 2.7rem;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
   color: var(--white);
 }
 
 .hero-content p {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   max-width: 600px;
   margin: 0 auto 2rem auto;
 }
