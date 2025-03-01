@@ -308,7 +308,7 @@ nav ul {
   display: none;    /* Overwrites the earlier display: flex; */
   position: absolute; /* Takes the nav out of the document flow */
   top: 4rem;        /* Positions the menu below the header */
-  right: 0.2rem;      /* Align it to the right side */
+  right: 1rem;      /* Align it to the right side */
   background-color: var(--white);
   border: 1px solid rgba(0,0,0,0.1);
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
