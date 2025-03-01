@@ -100,6 +100,8 @@ nav a:hover {
   font-weight: 600;
   transition: background-color 0.3s ease;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border: none;      /* Removes default border in some browsers */
+  outline: none;     /* Removes default outline on focus (optional) */
 }
 
 .btn:hover {
