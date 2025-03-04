@@ -9,13 +9,38 @@
 </head>
 
 <body>
+      <!-- Header / Navigation -->
     <header>
-        <h1>Job Application</h1>
-        <p>Fill out the form below to apply for a position with our company.</p>
+        <div class="logo">
+        <a href="index.html">
+            <img src="logo.png" alt="Your Portfolio" />
+        </a>
+        </div>
+        
+        <!-- Add these lines -->
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+        </label>
+
+        <nav>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        </nav>
     </header>
 
     <main class="wrapper">
         <section>
+            <h1>Job Application</h1>
+            <p>Fill out the form below to apply for a position with our company.</p>
+            
             <form method="POST" action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES">
                 <fieldset>
                     <legend>Your Contact Information</legend>
