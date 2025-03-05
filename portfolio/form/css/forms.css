@@ -120,12 +120,12 @@ iframe {
 	border-radius: 5px;
 }
   
-  /* Responsive adjustments
-  /* @media (min-width: 768px) {
+/* Responsive adjustments */
+@media (min-width: 768px) {
 	.wrapper {
-		max-width: 90%; /* Increase width on large screens
-		width: auto; /* Allow width to grow
-		/* flex-direction: column;
+		max-width: 90%; /* Increase width on large screens */
+		width: auto; /* Allow width to grow */
+		flex-direction: column;
 		padding: 1.5em;
 		section {
 			flex: 2 2 60%;
@@ -134,7 +134,8 @@ iframe {
 		aside {
 			flex: 1 1 35%;
 		}
-	} */
+	}
+}
 
 @media (max-width: 768px) {
 	section,
