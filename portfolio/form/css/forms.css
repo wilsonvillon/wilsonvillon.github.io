@@ -22,19 +22,15 @@ html {
 	scroll-behavior: smooth;
 }
 
-/* html, body {
-  overflow-x: hidden;
-} */
-
-header {
+/* header {
 	text-align: center;
 }
 
 header p {
-	/* This sets the font size to scale between 1rem and 1.25rem depending on the viewport width */
+	/* This sets the font size to scale between 1rem and 1.25rem depending on the viewport width
 	font-size: clamp(1rem, 2vw, 1.25rem);
 	line-height: 1.5;
-  }
+  } */
   
 .wrapper {
 	width: 95%;
