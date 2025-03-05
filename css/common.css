@@ -7,15 +7,6 @@
   --white: #ffffff;    /* White */
 }
 
-/* Global Reset */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 header {
     position: sticky; /* Sticks to the top on scroll */
     top: 0;
@@ -53,7 +44,7 @@ header {
     color: var(--lavender-gray); /* Accent on hover */
   }
 
-/* ============================= */
+  /* ============================= */
 /*  HAMBURGER MENU BASE STYLES  */
 /* ============================= */
 
