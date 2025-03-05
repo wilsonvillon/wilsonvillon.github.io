@@ -1,3 +1,12 @@
+:root {
+  /* Colors */
+  --midnight-blue: #193175; /* Midnight Blue */
+  --lavender-gray: #aeb3cd; /* Lavender gray */
+  --twilight-lavender: #969bb3; /* Darker shade of lavender gray*/
+  --cloudy-lavender: #edeefc; /* Lighter shade of lavender gray*/
+  --white: #ffffff;    /* White */
+}
+
 header {
     position: sticky; /* Sticks to the top on scroll */
     top: 0;
