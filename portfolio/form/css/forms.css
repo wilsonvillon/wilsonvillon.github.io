@@ -144,11 +144,12 @@ iframe {
 			flex: 1 1 100%;
 		}
 	body {
-			padding: 1rem; /* or 0 if you prefer */
-		  }
-		  .wrapper {
-			padding: 1rem; /* or less if needed */
-			gap: 1rem;     /* reduce gap to ensure no overflow */
+			padding: 1rem 0; /* or 0 if you prefer */
+		}
+	.wrapper {
+		padding: 1rem; /* or less if needed */
+		margin: 0 auto;
+		gap: 1rem;     /* reduce gap to ensure no overflow */
 		}
 }
 
