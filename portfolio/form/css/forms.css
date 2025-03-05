@@ -143,6 +143,13 @@ iframe {
 			flex-basis: 100%; /* Stack on mobile */
 			flex: 1 1 100%;
 		}
+	body {
+			padding: 1rem; /* or 0 if you prefer */
+		  }
+		  .wrapper {
+			padding: 1rem; /* or less if needed */
+			gap: 1rem;     /* reduce gap to ensure no overflow */
+		}
 }
 
 @media (min-width: 1024px) {
