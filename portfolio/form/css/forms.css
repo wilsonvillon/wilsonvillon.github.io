@@ -12,7 +12,7 @@
 body {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font stack */
 	margin: 0;
-	padding: /* 2rem; Added padding for better layout */
+	padding: 2rem; /* Added padding for better layout */
 	background-color: #f2f2f2; /* Light gray background */
 	line-height: 1.6; /* Increased line height for better readability */
   }
@@ -36,15 +36,15 @@ html {
 	/* overflow: hidden; Ensures no content spills out */
 }
   
-/* section {
+section {
 	flex: 1 1 60%; /* Flexible width for better responsiveness */
-	/* min-width: 280px; *
+	min-width: 280px;
 }
   
-/* aside {
+aside {
 	flex: 1 1 35%;
 	min-width: 280px;
-} */
+}
   
 fieldset {
 	border: 1px solid #ddd; /* Light gray border */
