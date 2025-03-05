@@ -36,15 +36,15 @@ html {
 	/* overflow: hidden; Ensures no content spills out */
 }
   
-section {
+/* section {
 	flex: 1 1 60%; /* Flexible width for better responsiveness */
-	/* min-width: 280px; */
+	/* min-width: 280px; *
 }
   
-aside {
+/* aside {
 	flex: 1 1 35%;
 	min-width: 280px;
-}
+} */
   
 fieldset {
 	border: 1px solid #ddd; /* Light gray border */
