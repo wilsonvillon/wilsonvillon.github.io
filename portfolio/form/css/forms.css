@@ -51,7 +51,7 @@ fieldset {
 	border-radius: 8px;
 	margin-bottom: 1.5em;
 	padding: 1.5em;
-	width: calc(90% - 0.5rem); /* Added max-width here */
+	width: 100%; /* calc(90% - 0.5rem); Added max-width here */
 	box-sizing: border-box; /* Ensure padding/border are included in width */
 }
   
