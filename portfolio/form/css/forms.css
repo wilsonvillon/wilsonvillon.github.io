@@ -38,12 +38,12 @@ html {
   
 section {
 	flex: 1 1 60%; /* Flexible width for better responsiveness */
-	min-width: 280px;
+	/* min-width: 280px; */
 }
   
 aside {
 	flex: 1 1 35%;
-	min-width: 280px;
+	/* min-width: 280px; */
 }
   
 fieldset {
@@ -103,8 +103,6 @@ button {
 	border-radius: 5px;
 	cursor: pointer;
 	transition: background-color 0.3s ease, transform 0.2s ease;
-	/* width: 100%; /* Full width
-	max-width: 100%; /* Prevents overflow */
 	box-sizing: border-box; /* Includes padding in the total width */
 }
   
