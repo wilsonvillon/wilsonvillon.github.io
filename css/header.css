@@ -7,6 +7,9 @@
   --white: #ffffff;    /* White */
 }
 
+/********************************************
+  HEADER & NAV BAR
+*********************************************/
 /* Sticky Header */
 header {
     position: sticky; /* Sticks to the top on scroll */
@@ -22,14 +25,14 @@ header {
     transition: background-color 0.3s ease, color 0.3s ease;
   }
   
-  /* Logo Area */
+  /* Logo */
   .logo h1 {
     font-size: 1.5rem;
     color: var(--midnight-blue);
     transition: color 0.3s ease;
   }
   
-  /* Navigation */
+  /* Nav Menu */
   nav ul {
     list-style: none;
     display: flex;
@@ -47,8 +50,8 @@ header {
     color: var(--lavender-gray); /* Accent on hover */
   }
 
-  /* ============================= */
-/*  HAMBURGER MENU BASE STYLES  */
+/* ============================= */
+/*  HAMBURGER MENU BASE          */
 /* ============================= */
 
 /* Hide the checkbox visually */
@@ -78,7 +81,7 @@ header {
 }
 
 /* =============================== */
-/*   HAMBURGER MENU MOBILE RULES   */
+/*   MOBILE MEDIA QUERY            */
 /* =============================== */
 @media (max-width: 768px) {
   /* Adjust header padding for small screens */
@@ -86,18 +89,17 @@ header {
     padding: 1rem;
   }
 
-  /* Show hamburger on small screens */
+  /* Show hamburger, hide nav by default */
   .hamburger {
     display: flex;  /* Now visible under 768px */
     margin-left: auto; /* Pushes the hamburger to the right */
   }
 
-  /* Initially hide your nav on mobile */
   nav ul {
-    display: none; /* Overwrites the earlier display: flex; */
-    position: absolute; /* Takes the nav out of the document flow */
-    top: 4rem;        /* Positions the menu below the header */
-    right: 1rem;      /* Align it to the right side */
+    display: none; 
+    position: absolute;
+    top: 4rem;        
+    right: 1rem;      
     background-color: var(--white);
     border: 1px solid rgba(0,0,0,0.1);
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
