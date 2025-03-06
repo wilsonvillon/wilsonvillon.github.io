@@ -43,7 +43,7 @@ header {
 }
 
 /* Logo Area */
-.logo h1 {
+.logo {
   font-size: 1.5rem;
   color: var(--midnight-blue);
 }

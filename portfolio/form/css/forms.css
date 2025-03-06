@@ -12,7 +12,7 @@
 body {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font stack */
 	margin: 0;
-	padding: 2rem; /* Added padding for better layout */
+	/* padding: 2rem; /* Added padding for better layout */
 	background-color: #f2f2f2; /* Light gray background */
 	line-height: 1.6; /* Increased line height for better readability */
   }
