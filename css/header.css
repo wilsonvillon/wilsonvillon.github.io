@@ -7,6 +7,11 @@
   --white: #ffffff;    /* White */
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 header, nav, nav ul, .hamburger {
   outline: 1px solid red;
 }
@@ -103,7 +108,7 @@ header {
 
   nav ul {
     display: none; 
-    /* position: absolute; */
+    position: absolute;
     top: 4rem;        
     right: 1rem;      
     background-color: var(--white);
