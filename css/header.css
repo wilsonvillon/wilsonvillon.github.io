@@ -1,3 +1,14 @@
+/* General reset */
+* {
+	box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+	box-sizing: inherit;
+}
+
 :root {
   /* Colors */
   --midnight-blue: #193175; /* Midnight Blue */
