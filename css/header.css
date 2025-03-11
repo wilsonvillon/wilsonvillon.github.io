@@ -12,10 +12,6 @@
   --white: #ffffff;    /* White */
 }
 
-header, nav, nav ul, .hamburger {
-  outline: 1px solid red;
-}
-
 /********************************************
   HEADER & NAV BAR
 *********************************************/
