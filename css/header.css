@@ -101,7 +101,7 @@ header {
     margin-left: auto; /* Pushes the hamburger to the right */
   }
 
-  /* nav ul {
+  nav ul {
     display: none; 
     position: absolute;
     top: 4rem;        
@@ -113,7 +113,7 @@ header {
     padding: 1rem;
     flex-direction: column;
     gap: 1rem;
-  } */
+  }
 
 /* Reveal the nav when checkbox is checked */
 #menu-toggle:checked ~ nav ul {
