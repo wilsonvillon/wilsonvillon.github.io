@@ -28,12 +28,12 @@ body {
   line-height: 1.6;
 }
 
-/* Sticky Header *
-/* header {
-  position: sticky; /* Sticks to the top on scroll *
+/* Sticky Header */
+header {
+  position: sticky; /* Sticks to the top on scroll */
   top: 0;
   width: 100%;
-  z-index: 999; /* Ensures header stays above other elements *
+  z-index: 999; /* Ensures header stays above other elements */
   background-color: var(--white); 
   display: flex;
   align-items: center;
@@ -42,12 +42,12 @@ body {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Logo Area *
+/* Logo Area */
 .logo {
   color: var(--midnight-blue);
 }
 
-/* Navigation *
+/* Navigation */
 nav ul {
   list-style: none;
   display: flex;
@@ -62,8 +62,8 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--lavender-gray); /* Accent on hover *
-} */
+  color: var(--lavender-gray); /* Accent on hover */
+}
 
 /* Hero Section */
 .hero {
