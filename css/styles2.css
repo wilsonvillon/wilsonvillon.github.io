@@ -302,7 +302,7 @@ nav a:hover {
 /* Show hamburger on small screens *
 .hamburger {
   display: flex;  /* Now visible under 768px */
-  margin-left: auto; /* Pushes the hamburger to the right *
+  /* margin-left: auto; /* Pushes the hamburger to the right *
 } */
 
 /* Initially hide your nav on mobile *
