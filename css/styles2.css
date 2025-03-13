@@ -287,11 +287,11 @@ nav a:hover {
     gap: 1rem;
   } 
 
-  /* Adjust the hero on smaller screens so background scales better *
+  /* Adjust the hero on smaller screens so background scales better */
   .hero {
     min-height: auto;   /* Let the hero shrink naturally */
     padding: 4rem 2rem; /* Give text room to breathe */
-    background-size: cover; /* Cover the hero area *
+    background-size: cover; /* Cover the hero area */
   }
 
   /* =============================== */

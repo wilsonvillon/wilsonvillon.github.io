@@ -12,15 +12,52 @@
   --white: #ffffff;    /* White */
 }
 
+/* Sticky Header */
+header {
+  position: sticky; /* Sticks to the top on scroll */
+  top: 0;
+  width: 100%;
+  z-index: 999; /* Ensures header stays above other elements */
+  background-color: var(--white); 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem; 
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo Area */
+.logo {
+  color: var(--midnight-blue);
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--midnight-blue);
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: var(--lavender-gray); /* Accent on hover */
+}
+
 /********************************************
   HEADER & NAV BAR
 *********************************************/
-/* Sticky Header */
+/* Sticky Header *
 header {
-    position: sticky; /* Sticks to the top on scroll */
+    position: sticky; /* Sticks to the top on scroll *
     top: 0;
     width: 100%;
-    z-index: 999; /* Ensures header stays above other elements */
+    z-index: 999; /* Ensures header stays above other elements *
     background-color: var(--white); 
     display: flex;
     align-items: center;
@@ -30,14 +67,14 @@ header {
     transition: background-color 0.3s ease, color 0.3s ease;
   }
   
-  /* Logo */
+  /* Logo *
   .logo {
     color: var(--midnight-blue);
     /* text-decoration: none;
-    transition: color 0.3s ease; */
+    transition: color 0.3s ease; *
   }
   
-  /* Nav Menu */
+  /* Nav Menu *
   nav ul {
     list-style: none;
     display: flex;
@@ -53,8 +90,8 @@ header {
   }
   
   nav a:hover {
-    color: var(--lavender-gray); /* Accent on hover */
-  }
+    color: var(--lavender-gray); /* Accent on hover *
+  } */
 
 /* ============================= *
 /*  HAMBURGER MENU BASE          *
@@ -168,13 +205,6 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
-  }
-
-  /* Adjust the hero on smaller screens so background scales better */
-  .hero {
-    min-height: auto;   /* Let the hero shrink naturally */
-    padding: 4rem 2rem; /* Give text room to breathe */
-    background-size: cover; /* Cover the hero area */
   }
 
   /* =============================== */
