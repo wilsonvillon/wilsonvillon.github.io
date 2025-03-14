@@ -209,13 +209,14 @@ body {
 }
 
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
   /* Adjust the hero on smaller screens so background scales better */
   .hero {
     min-height: auto;   /* Let the hero shrink naturally */
     padding: 4rem 2rem; /* Give text room to breathe */
     background-size: cover; /* Cover the hero area */
   }
+}
 
 /* Footer */
 footer {
