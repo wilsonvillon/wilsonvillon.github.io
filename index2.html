@@ -14,7 +14,7 @@
   <header>
     <div class="logo">
       <a href="index2.html">
-        <img src="logo.png" alt="Your Portfolio" />
+        <img src="logo.png" alt="Brand logo image" />
       </a>
     </div>
     
@@ -26,7 +26,7 @@
       <span></span>
     </label>
 
-    <nav>
+    <nav aria-label="Main Navigation">
       <ul>
         <li><a href="#hero">Home</a></li>
         <li><a href="#services">Services</a></li>
@@ -36,84 +36,86 @@
       </ul>
     </nav>
   </header>
-  
-  <!-- Hero Section -->
-  <section id="hero" class="hero">
-    <div class="hero-content">
-      <h1>Building Brilliant Digital Experiences</h1>
-      <p>Your one-stop solution for modern, user-centric web design and development.</p>
-      <a class="btn" href="#contact">Get Started</a>
-    </div>
-    <!-- Optional hero background image or illustration can be placed here -->
-  </section>
 
-  <!-- Services Section -->
-  <section id="services" class="services">
-    <h2>Services</h2>
-    <div class="service-items">
-      <article class="service-item">
-        <h3>Web Design</h3>
-        <p>Create visually stunning designs that provide seamless user experiences.</p>
-      </article>
-      <article class="service-item">
-        <h3>Development</h3>
-        <p>Transform your ideas into dynamic websites with clean, efficient code.</p>
-      </article>
-      <article class="service-item">
-        <h3>Branding</h3>
-        <p>Build a memorable brand identity that resonates with your audience.</p>
-      </article>
-    </div>
-  </section>
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <h1>Building Brilliant Digital Experiences</h1>
+        <p>Your one-stop solution for modern, user-centric web design and development.</p>
+        <a class="btn" href="#contact">Get Started</a>
+      </div>
+      <!-- Optional hero background image or illustration can be placed here -->
+    </section>
 
-  <section id="portfolio" class="portfolio">
-    <h2>Featured Projects</h2>
-    <div class="portfolio-gallery">
-      <article class="portfolio-item">
-        <a href="portfolio/form/forms.html">
-          <img src="project1-thumbnail.jpg" alt="Project 1 Thumbnail" />
-          <h3>Project One</h3>
-          <p>A brief description highlighting the key points of this project.</p>
-        </a>
-      </article>
-      <article class="portfolio-item">
-        <a href="project2-details.html">
-          <img src="project2-thumbnail.jpg" alt="Project 2 Thumbnail" />
-          <h3>Project Two</h3>
-          <p>A quick overview emphasizing what makes this project stand out.</p>
-        </a>
-      </article>
-      <!-- Add more items as needed -->
-    </div>
-  </section>
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <h2>Services</h2>
+      <div class="service-items">
+        <article class="service-item">
+          <h3>Web Design</h3>
+          <p>Create visually stunning designs that provide seamless user experiences.</p>
+        </article>
+        <article class="service-item">
+          <h3>Development</h3>
+          <p>Transform your ideas into dynamic websites with clean, efficient code.</p>
+        </article>
+        <article class="service-item">
+          <h3>Branding</h3>
+          <p>Build a memorable brand identity that resonates with your audience.</p>
+        </article>
+      </div>
+    </section>
 
-  <!-- About Section -->
-  <section id="about" class="about">
-    <h2>About Us</h2>
-    <p>
-      We’re a passionate team of designers and developers dedicated to delivering high-impact digital
-      solutions for businesses of all sizes.
-    </p>
-    <!-- Possibly add a team photo or an “About Me” if it’s a personal portfolio -->
-  </section>
+    <section id="portfolio" class="portfolio">
+      <h2>Featured Projects</h2>
+      <div class="portfolio-gallery">
+        <article class="portfolio-item">
+          <a href="portfolio/form/forms.html">
+            <img src="project1-thumbnail.jpg" alt="Project 1 Thumbnail" />
+            <h3>Project One</h3>
+            <p>A brief description highlighting the key points of this project.</p>
+          </a>
+        </article>
+        <article class="portfolio-item">
+          <a href="project2-details.html">
+            <img src="project2-thumbnail.jpg" alt="Project 2 Thumbnail" />
+            <h3>Project Two</h3>
+            <p>A quick overview emphasizing what makes this project stand out.</p>
+          </a>
+        </article>
+        <!-- Add more items as needed -->
+      </div>
+    </section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="contact">
-    <h2>Contact Us</h2>
-    <p>Ready to take your digital presence to the next level? Let’s connect!</p>
-    <form action="#" method="POST">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required />
+    <!-- About Section -->
+    <section id="about" class="about">
+      <h2>About Us</h2>
+      <p>
+        We’re a passionate team of designers and developers dedicated to delivering high-impact digital
+        solutions for businesses of all sizes.
+      </p>
+      <!-- Possibly add a team photo or an “About Me” if it’s a personal portfolio -->
+    </section>
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required />
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <p>Ready to take your digital presence to the next level? Let’s connect!</p>
+      <form action="#" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
 
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
 
-      <button type="submit" class="btn">Send Message</button>
-    </form>
-  </section>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+  </main>
 
   <!-- Footer -->
   <footer>
